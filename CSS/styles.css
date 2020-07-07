@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    color: #757575;
+}
+.logo {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:#000000;
+}
+.web {
+    color: #2196F3;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style:none;
+}
+.navigation-link,.header-mailto,.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;  
+    color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+    color: #2196F3
+}
+.header-mailto,.header-tel {
+    color: #757575;
+    }
+.header-mailto:hover, 
+.header-mailto:focus {
+color: #2196F3;
+}
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height:1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.modal-button {
+font-weight: bold;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+background-color: #2196F3;
+color: #FFFFFF;
+}
+.subtitle, .subtitle-box {
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.description {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.section-subtitle {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.subtitle-box {
+text-align: center;
+color: #FFFFFF;
+}
+.subtitle-name, .subtitle-position {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.subtitle-position {
+font-weight: normal;
+color: #757575;
+}
