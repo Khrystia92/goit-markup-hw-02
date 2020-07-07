@@ -9,7 +9,7 @@
 body {
     font-family: var(--main-font);
     font-size: 14px;
-    background-color: #FFFFFF;
+    background-color: #FFFFF;
     color: var(--main-text-color);
 }
 .logo {
@@ -48,6 +48,10 @@ color:#000000;
 .header-mailto:focus {
 color: var(--aksent-color);
 }
+.header-tel:hover, 
+.header-tel:focus {
+color: var(--aksent-color);
+}
 .hero-title {
 font-weight: 900;
 font-size: 44px;
@@ -68,7 +72,7 @@ letter-spacing: 0.06em;
 background-color: var(--aksent-color);
 color: var(--title-dark-theme-color);
 }
-.subtitle, .subtitle-box {
+.subtitle, .subtitle-box, .footer-subtitle {
 font-weight: bold;
 font-size: 14px;
 line-height: 1.14;
@@ -107,5 +111,15 @@ font-weight: normal;
 color: var(--main-text-color);
 }
 .address {
-
+       color:var(--title-dark-theme-color);
+}
+.footer-mailto, .footer-tel, .address{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-subtitle {
+color: var(--title-dark-theme-color);
 }
