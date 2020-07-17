@@ -27,6 +27,7 @@ color:#000000;
 }
 .link {
     text-decoration: none;
+    display: block;
 }
 .list {
     list-style:none;
@@ -38,12 +39,34 @@ color:#000000;
     margin-left: auto;
     margin-right: auto;
 }
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-address {
+    display: flex;}
+.header-mailto, .header-tel {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.header-mailto {
+    margin-right: 50px;
+}
 .navigation {
     display: flex;
     align-items: center;
 }
 .navigation-list {
 display: flex;
+}
+.navigation-link {
+padding-top: 32px;
+padding-bottom: 32px;
 }
 .navigation-list-item:not(:last-child) {
     margin-right: 50px;
@@ -70,7 +93,16 @@ color: var(--aksent-color);
 .header-tel:focus {
 color: var(--aksent-color);
 }
+.hero {
+    display: flex;
+    background-color: rgba(47, 48, 58, 0.8);
+    padding-left: 317px;
+    padding-right: 317px;
+    padding-top: 200px;
+    padding-bottom: 280px;
+}
 .hero-title {
+margin-bottom: 30px;
 font-weight: 900;
 font-size: 44px;
 line-height:1.36;
@@ -80,16 +112,29 @@ text-transform: uppercase;
 color: var(--title-dark-theme-color);
 }
 .modal-button {
+display: flex;
+margin: auto;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.88;
-display: flex;
-align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 background-color: var(--aksent-color);
 color: var(--title-dark-theme-color);
 }
+img {
+    display: block;
+}
+.special {
+    display: flex;
+    align-items: center;}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.speciality:not(:last-child) {
+    margin-right: 30px;}
+    
 .subtitle, .subtitle-box, .footer-subtitle {
 font-weight: bold;
 font-size: 14px;
@@ -97,6 +142,20 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-light-theme-color)
+}
+.doing {
+    display: flex;
+    background: rgba(47, 48, 58, 0.8);
+}
+.team {
+    background: #F5F4FA;
+}
+h2 {
+    margin-bottom: 50px;
+}
+.our-team {
+    display: flex;
+    
 }
 .description, .description-portfolio {
 font-size: 14px;
